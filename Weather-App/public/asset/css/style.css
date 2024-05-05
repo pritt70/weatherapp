@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*------------------- Navbar_section ---------------------*/
+.navbar_section{
+    padding: 10px 0;
+    background-color: #EFEFF0;
+    
+}
+.navbar_section .navbar-brand .nav_img{
+    width: 20%;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+.navbar_section .navbar-nav .nav{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    color: #27727D !important;
+    margin-left: 15px;
+    position: relative;
+    @media screen and (min-width: 1280px) {
+        font-size: 21px;
+        margin-left: 20px;
+    }
+}
+.navbar_section .navbar-nav .nav::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #27727D !important;
+    transition: transform 0.4s;
+    transform: scaleX(0);
+    transform-origin: right;
+}
+.navbar_section .navbar-nav .nav:hover::before, 
+.navbar_section .navbar-nav .active.nav::before {
+    transform: scalex(1);
+    transform-origin: left;
+}
+
+.navbar_section .navbar-toggler{
+    color: #fff !important;
+    border: 1px solid #fff !important;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+
+/*---------------------- Home_section ----------------------*/
+.Home_section{
+    padding: 50px;
+    background-color: #BFD3D5;
+}
+.Home_section .home_main{
+    background-color: #EFEFF0;
+    padding: 50px;
+}
+.Home_section .home img{
+    width: 10%;
+    border-radius: 50%;
+}
+.Home_section .home h4{
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+.Home_section .home .home_info{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Home_section .home .home_info h1{
+    font-size: 45px;
+    font-weight: 800 !important;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+    color: #27727D;
+    @media screen and (min-width:1280px) {
+        font-size: 55px;
+    }
+}
+.Home_section .home .home_info p{
+    font-size: 19px;
+    margin-bottom: 20px;
+    @media screen and (min-width:1280px) {
+        font-size: 23px;
+    }   
+}
+.Home_section .home .home_info .btn1{
+    padding: 10px 20px; 
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #27727D;
+    color: #fff;
+    border: 2px solid #27727D;
+    display: flex;
+    align-items: center;
+    transition:  all 0.4s;
+}
+.Home_section .home .home_info .btn1:hover{
+    background-color: #fff;
+    color: #27727D;
+}
+.Home_section .home_info .ico1{
+    font-size: 30px;
+    margin-right: 10px;
+    color: #fff;
+    transition: all 0.4s;
+}
+.Home_section .home .home_info .btn1:hover .ico1{
+    color: #27727D;
+}
+
+
+.Home_section .home_1 .home_1_img{
+    width: 50%;  
+}
+
+@media screen and (max-width:778px) {
+    .Home_section .home img{
+        width: 15%;
+        border-radius: 50%;
+    }
+    .Home_section .home .home_info h1{
+        font-size: 35px;
+    }
+    .Home_section .home .home_info p{
+        font-size: 16px;
+    }
+    .Home_section .home .home_info .btn1{
+        padding: 10px 17px; 
+        border-radius: 50px;
+    }
+    .Home_section .home_info .ico1{
+        font-size: 20px;
+    }
+}
+
+
+

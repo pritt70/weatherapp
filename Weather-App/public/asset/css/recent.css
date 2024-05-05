@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*--------------------------- recent_section -----------------------*/
+.recent_section{
+    padding: 50px 0;
+    background-color: #BFD3D5;
+}
+.recent_section h3{
+    color: #27727D;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+.recent_section .recent{
+    background-color: #EFEFF0;
+    padding: 20px; 
+}
+.recent_section .recent li{
+    color: #27727D;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    margin: 5px 0;
+    font-weight: bold;
+    cursor: pointer;
+}

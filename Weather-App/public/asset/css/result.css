@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-------------------------- result_section -----------------------------*/
+.rh3{
+    color: #27727D;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+.card_section{
+    padding: 50px 0;
+    background-color: #EFEFF0;
+}
+.card_section h2{
+    color: #27727D;
+    font-size: 30px;
+    font-weight: bold !important;
+    font-family: 'Playfair Display', serif;
+}
+.card_section .card{
+    background-color: #BFD3D5;
+    padding: 50px;
+}
+.card_section .card h5{
+    color: #27727D; 
+    font-family: 'Inter', sans-serif;
+}
+
+.card_section .card table th{
+    color: #27727D;
+}
+.card_section .card table td{
+    color: #27727D;
+}

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*--------------------------- weather_section -----------------------------*/
+.weather_section{
+    padding: 50px 0;
+    background-color: #BFD3D5;
+}
+.weather_section .weather_main{
+    background-color: #EFEFF0;
+    padding: 50px; 
+    border-radius: 10px; 
+}
+.weather_section  .weather label{
+    font-size: 18px;
+    font-weight: bold;
+    color: #27727D;
+    font-family: 'Inter', sans-serif;
+}
+.weather_section  .weather .city_div{
+    position: relative;
+}
+.weather_section  .weather .city_div .serch_ico{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #27727D;
+}
+.weather_section  .weather .icon1{
+    font-size: 22px;
+    vertical-align: middle;
+    color: #27727D;
+    cursor: pointer;
+}
+.weather_section  .weather .btn1{
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #27727D;
+    color: #fff;
+    border: 2px solid #27727D;
+    display: flex;
+    align-items: center;
+    transition:  all 0.4s;
+}
+.weather_section .weather .btn1:hover{
+    background-color: #fff;
+    color: #27727D;
+}
