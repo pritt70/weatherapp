@@ -18,6 +18,20 @@
     border-radius: 50%;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
 }
+
+@media only screen and (max-width: 600px) {
+    .navbar_section .navbar-brand .nav_img{
+        display: block;
+        margin-right: auto;
+    }
+    .Home_section{
+        padding: 20px !important;
+    }
+    .Home_section .home_main{
+        padding: 30px !important;
+    }
+}
+
 .navbar_section .navbar-nav .nav{
     display: inline-block;
     font-size: 18px;
@@ -50,8 +64,8 @@
 }
 
 .navbar_section .navbar-toggler{
-    color: #fff !important;
-    border: 1px solid #fff !important;
+    color: #262626 !important;
+    border: 1px solid #262626 !important;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
 }
 
